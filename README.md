@@ -1,5 +1,13 @@
 # MTGO docker image
 
+> **Fork of [pauleve/docker-mtgo](https://github.com/pauleve/docker-mtgo)** with wine 11.2
+> ([PR #204](https://github.com/pauleve/docker-mtgo/pull/204) + a launcher fix from
+> [g0dnerd](https://github.com/g0dnerd/docker-mtgo)) and working sound
+> ([PR #219](https://github.com/pauleve/docker-mtgo/pull/219)).
+> Working on Linux Mint (Cinnamon/X11) with sound on. The default image in `run-mtgo`
+> is still upstream's, so build locally and pass it explicitly; see [docs/FORK.md](docs/FORK.md)
+> for sources, what was left out, and build steps.
+
  <a title="Docker Hub" href="https://hub.docker.com/r/panard/mtgo"><img src="https://img.shields.io/docker/pulls/panard/mtgo.svg?longCache=true&style=flat-square&logo=docker&logoColor=fff"></a>
  
  > :warning: :warning:
