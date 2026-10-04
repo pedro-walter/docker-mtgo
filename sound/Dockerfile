@@ -5,6 +5,7 @@ USER root
 
 RUN apt update && apt install -y --no-install-recommends \
         python3-minimal \
+        libpython3-stdlib \
         gstreamer1.0-plugins-good \
         gstreamer1.0-tools \
         gstreamer1.0-pulseaudio \
